@@ -23,7 +23,7 @@ namespace ApiAPP.Controllers
         [SwaggerResponse(HttpStatusCode.NotFound)]
         public string Get(int id)
         {
-            return "Vaidhy's API ::::=>  value " + id.ToString() + "was received as input";
+            return "Vaidhy's from Source Control API ::::=>  value " + id.ToString() + "was received as input";
         }
 
         // POST api/values
